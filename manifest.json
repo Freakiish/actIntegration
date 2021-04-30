@@ -1,0 +1,14 @@
+{
+  "domain": "act_api",
+  "name": "vanderbilt ACT API",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/act_api",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@freakiish"
+  ]
+}
