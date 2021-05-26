@@ -35,7 +35,7 @@ async def validate_input(hass: core.HomeAssistant, data):
     """
     # TODO validate the data can be used to set up a connection.
 
-    # If your PyPI package is not built with async, pass your methods
+    # If your PyPI package is not built with async, pass your method
     # to the executor:
     # await hass.async_add_executor_job(
     #     your_validate_func, data["username"], data["password"]
