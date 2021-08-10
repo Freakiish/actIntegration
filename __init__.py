@@ -6,9 +6,8 @@ from homeassistant.core import HomeAssistant
 
 from .const import DOMAIN
 
-# TODO List the platforms that you want to support.
-# For your initial PR, limit it to 1 platform.
-PLATFORMS = ["light"]
+
+PLATFORMS = ["Console"]
 
 
 async def async_setup(hass: HomeAssistant, config: dict):
@@ -18,8 +17,8 @@ async def async_setup(hass: HomeAssistant, config: dict):
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
     """Set up vanderbilt ACT API from a config entry."""
-    # TODO Store an API object for your platforms to access
-    # hass.data[DOMAIN][entry.entry_id] = MyApi(...)
+    
+    hass.data[http://192.168.0.142:8005/mex][entry.entry_id] = ACTapi(Connection):
 
     for platform in PLATFORMS:
         hass.async_create_task(
